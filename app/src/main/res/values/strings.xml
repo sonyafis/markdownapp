@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">markdownapp</string>
+    <string name="edit_button_description">Edit document</string>
+    <string name="markdown_content_description">Markdown document content</string>
+</resources>
