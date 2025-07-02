@@ -31,4 +31,9 @@ object NetworkUtils {
             connection.disconnect()
         }
     }
+
+    fun isValidMarkdownUrl(url: String): Boolean {
+        return url.startsWith("https://raw.githubusercontent.com/")
+                && url.endsWith(".md")
+    }
 }
